@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 .mod-about {
-    background-color: #d1dae0;
+    background-color: #000;
+    color: #fff;
     padding: 70px 0;
 }
 .mod-about h2 {
@@ -46,7 +47,8 @@
     vertical-align: middle;
     height: 35px;
     width: 140px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
+    background-color: #fff;
     text-decoration: none;
     color: #000;
     text-align: center;
@@ -61,8 +63,11 @@
 
 .mod-about .outline .outlineCont.type2 {
 }
-.mod-about .outline .outlineCont.type2 img{
+.mod-about .outline .outlineCont.type2 .image{
   float: right;
+}
+.mod-about .outline .outlineCont.type2 .human {
+width: 100px;
 }
 @media screen and (max-width:768px) {
 .mod-about {
@@ -144,7 +149,7 @@ width: 100%;
 
 .mod-about .outline .outlineCont.type2 {
 }
-.mod-about .outline .outlineCont.type2 img{
+.mod-about .outline .outlineCont.type2 .image{
   float: none;
 }
 .mod-about .outline .outlineCont.type2 .rightCont {
