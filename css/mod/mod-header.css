@@ -76,12 +76,15 @@
     margin-top: 0;
     display: table-cell;
     vertical-align: middle;
-    padding-right: 20px;
+    padding-right: 0;
+    text-align: center
 }
 .mod-header .navigationListItem {
     display: table;
-    padding: 15px 0 10px 10px;
+    padding: 20px 0 20px 0;
     padding-right: none;
+    font-size: 20px;
+    width: 170px;
 }
 .mod-header .navigationListItem:last-child {
     padding-right: none;
@@ -165,7 +168,7 @@
   left: 0;
   z-index: 9999;/*最前面に*/
   width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-  max-width: 150px;/*最大幅（調整してください）*/
+  max-width: 170px;/*最大幅（調整してください）*/
   height: 100%;
   background: #fff;/*背景色*/
   transition: .3s ease-in-out;/*滑らかに表示*/
