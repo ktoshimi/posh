@@ -20,6 +20,52 @@ display: table-cell;
     padding-top: 10px;
     margin-left: -55px;
 }*/
+.mod-catch {
+    height: 100vh;
+}
+.mod-catch .catchText {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.mod-catch img {
+    width: 40%;
+    margin: 0 auto;
+}
+.mod-catch .new {
+padding-top: 50px;
+padding-bottom: 20px;
+}
+.mod-catch .about {
+font-size: 25px;
+line-height: 1.5;
+}
+.mod-catch .about span{
+font-size: 15px;
+}
+.mod-catch .about .day {
+	font-weight: bold;
+}
+.mod-catch .btn {
+	display: table;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mod-catch a {
+font-size: 23px;
+    display: table-cell;
+    border-radius: 4px;
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
 
 /*.mod-catch a {
     height: 30px;
