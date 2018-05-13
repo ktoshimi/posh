@@ -1,26 +1,27 @@
 @charset "utf-8";
 
-.mod-catch {
+/*.mod-catch {
     background-color: #000;
     position: relative;
-}
-.mod-catch .catchCont {
+}*/
+/*.mod-catch .catchCont {
     height: 800px;
     margin: 0 auto;
     background: url(./../../image/header_img.png) no-repeat;
     background-position: 50% 50%;
     background-size: 600px;
     position: relative;
-}
-
-.mod-catch a {
+}*/
+/*.mod-catch .catchText {
 display: table-cell;
     position: absolute;
     top: 60%;
     left: 50%;
     padding-top: 10px;
     margin-left: -55px;
-    /* vertical-align: middle; */
+}*/
+
+/*.mod-catch a {
     height: 30px;
     width: 110px;
     border: 1px solid #fff;
@@ -28,34 +29,54 @@ display: table-cell;
     text-decoration: none;
     color: #000;
     text-align: center;
-}
+}*/
 
 /* SP */
 @media screen and (max-width:768px) {
 .mod-catch {
-    background-color: #000;
+    height: 100vh;
+    background: url(./../../image/posh_sp_top02.png) no-repeat;
 }
-.mod-catch .catchCont {
-    height: 500px;
-    margin: 0;
-    background: url(./../../image/header_img.png) no-repeat;
-    background-position: 46%;
-    background-size: 100%;
+.mod-catch .catchText {
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.mod-catch img {
+    width: 80%;
+    margin: 0 auto;
+}
+.mod-catch .new {
+padding-top: 50px;
+padding-bottom: 20px;
+}
+.mod-catch .about {
+font-size: 25px;
+line-height: 1.5;
+}
+.mod-catch .about span{
+font-size: 15px;
+}
+.mod-catch .about .day {
+	font-weight: bold;
+}
+.mod-catch .btn {
+	display: table;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 .mod-catch a {
-display: table-cell;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    padding-top: 10px;
-    margin-left: -55px;
-    /* vertical-align: middle; */
-    height: 30px;
-    width: 110px;
-    border: 1px solid #fff;
+font-size: 25px;
+    display: table-cell;
+    border-radius: 4px;
+    height: 50px;
+    width: 150px;
     background-color: #fff;
-    text-decoration: none;
     color: #000;
+    border: 2px solid #fff;
+    text-decoration: none;
+    vertical-align: middle;
     text-align: center;
 }
 
