@@ -81,7 +81,6 @@ font-size: 23px;
 @media screen and (max-width:768px) {
 .mod-catch {
     height: 100vh;
-    background: url(./../../image/posh_sp_top02.png) no-repeat;
 }
 .mod-catch .catchText {
     padding-top: 100px;
@@ -125,5 +124,4 @@ font-size: 23px;
     vertical-align: middle;
     text-align: center;
 }
-
 }
